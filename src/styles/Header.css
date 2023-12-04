@@ -1,0 +1,13 @@
+nav{
+    background-color: aquamarine;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 2rem;
+  }
+
+  nav > a{
+    font: 600 1.5rem cursive;
+    color: blueviolet;
+    margin: 0 1rem;
+    text-decoration: none;
+
+  }

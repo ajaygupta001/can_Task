@@ -1,0 +1,108 @@
+/* ShippingAddressForm.css */
+
+body{
+  background-color: beige;
+}
+
+/* Container for the entire form */
+.shipping-address-container {
+    position: absolute;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding: 20px;
+    /* border: 5px solid black; */
+   
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+   
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  input{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+    border: none;
+  }
+
+ 
+  
+  /* Submit button styles */
+  .proceed-to-payment-btn {
+    background-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 60px;
+    text-transform: uppercase;
+  }
+  
+  .proceed-to-payment-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+  .right{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 80px;
+    background-color: #007bff;
+   
+  }
+  .card {
+    
+    padding: 20px;
+    width: 250px; 
+    height: 90px;
+    background-color: #007bff;
+    
+    
+  }
+  
+  img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 8px;
+    color: #fff;
+   
+   
+  }
+  .card h3 {
+    margin-top: 0;
+    color: #fff;
+    margin-bottom: 3px;
+
+  }
+  
+  .card > p{
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  .view-details {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  
